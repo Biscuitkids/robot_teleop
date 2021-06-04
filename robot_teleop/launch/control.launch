@@ -1,0 +1,12 @@
+<launch>
+
+  <node name="slam_car_control" pkg="robot_teleop" type="slam_car_control" output="screen">
+    <param name="scale_linear" value="0.1" type="double"/>
+    <param name="scale_angular" value="0.4" type="double"/>
+  </node>
+
+  <node name="odom" pkg="robot_setup_tf" type="odom" output="screen"></node>
+
+  <node name="tf_broadcaster" pkg="robot_setup_tf" type="tf_broadcaster" output="screen"></node>
+
+</launch>
