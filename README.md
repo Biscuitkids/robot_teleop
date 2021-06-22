@@ -1,5 +1,5 @@
 # robot_teleop
-ROS机器人系统与STM32开发板通讯
+The Robot Operating System(ROS) communicates with STM32
 
   //**********************************************
   
